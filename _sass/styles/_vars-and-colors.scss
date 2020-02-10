@@ -5,9 +5,13 @@ $white: #FFF;
 $yellow: #ffed00;
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime');
+@import url('https://fonts.googleapis.com/css?family=Prata');
 
 body {
-    font-family: "Poppins";
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: "Courier Prime";
     font-size: 16px;
     line-height: 22px;
 
@@ -18,6 +22,14 @@ body {
     color: $black;
     padding: 0;
     background-size: 100% auto;
+
+    @media only screen and (max-width : 1000px) {
+        background-size: 1000px;
+    }
+}
+
+h1, h2, h3 {
+    font-family: "Poppins" !important;
 }
 
 img {
@@ -71,7 +83,8 @@ img {
     margin-bottom: 0;
     font-weight: 600;
     font-size: 50px;
-    font-family: 'Poppins';
+    line-height: 50px;
+    font-family: 'Prata' !important;
     padding-bottom: 40px;
 }
 
@@ -82,6 +95,7 @@ img {
 
     .title-section {
         font-size: 30px;
+        line-height: 30px;
         padding-bottom: 15px;
     }
 }

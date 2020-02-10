@@ -1,4 +1,4 @@
-.faqs-block{
+.faqs-block {
     margin-top: 20px;
     background: url(../img/trama.png);
     background-repeat: no-repeat;
@@ -21,6 +21,8 @@
     .content-faq {
         background: #f18e21;
         padding: 20px;
+        clip-path: polygon(0 0, 96% 5%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 96% 5%, 100% 100%, 0% 100%);
     }
 
     > * {
@@ -39,14 +41,14 @@
     a {
         color: $black;
         font-weight: 600;
-        font-family: 'Poppins';
+        font-family: 'Courier Prime';
     }
 
     p {
         font-size: 20px;
         line-height: 26px;
-        font-weight: 600;
-        font-family: 'Poppins';
+        font-weight: 100;
+        font-family: 'Courier Prime';
 
         @media only screen and (max-width : 700px) {
             font-size: 16px;

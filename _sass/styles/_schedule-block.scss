@@ -33,6 +33,17 @@
         }
     }
 
+    .panel-group {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        @media only screen and (max-width : 400px) {
+            width: 95%;
+        }
+    }
+
     .event-schedule-title {
         padding: 0;
     }
@@ -71,7 +82,9 @@
     }
 
     .tabs {
-        background: $red;
+        background: #e63a2d;
         margin: 0;
+        clip-path: polygon(7% 8%, 100% 0, 89% 91%, 0% 100%);
+        -webkit-clip-path: polygon(7% 8%, 100% 0, 89% 91%, 0% 100%);
     }
 }

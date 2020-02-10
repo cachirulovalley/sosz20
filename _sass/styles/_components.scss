@@ -28,7 +28,6 @@ a {
   text-decoration: none;
   color: $white;
   display: inline-block;
-  text-transform: uppercase;
   position: relative;
   transition: all .2s;
   font-weight: 700;
@@ -41,7 +40,7 @@ a {
   }
 }
 .button-primary {
-  background-color: $red;
+  background-color: #e63a2d;
   &:hover, &:active { background-color: $dark-red; }
 }
 .button-register {
